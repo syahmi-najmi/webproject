@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+          <a href="WebHomepage.html" class="w3-bar-item w3-button"><b>S</b> DENTAL </a>
+          <!-- Float links to the right. Hide them on small screens -->
+          <div class="w3-right w3-hide-small">
+            <a href="WebHomepage.html" class="w3-bar-item w3-button">Home</a>
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+            <a href="#service" class="w3-bar-item w3-button">Service</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            <a href="Webregister.html" class="w3-bar-item w3-button">Register</a>
+            <a href="WebFaq.html" class="w3-bar-item w3-button">FAQ</a>
+            <a href="WebLogin.html" class="w3-bar-item w3-button">Log In</a>
+            <a href="appoinmentForm.html" class="w3-bar-item w3-button">Set Appointment</a>
+          </div>
+        </div>
+    </div>
+    
+
+    <form method="POST" action="WebSaveRegister.php" name="regFromWeb">
+        <table class="w3-cointainer-center w3-content"><br><br>
+            <h4 class="w3-center">S DENTAL </h4>
+            <h6 class="w3-center">Please fill this form</h6>
+        <tr>
+            <td width="104">Name</td>
+            <td width="305"><input type="text" name="adName" size="30"></td>
+        </tr>
+
+        <tr>
+            <td width="104">Contact</td>
+            <td width="305"><input type="text" name="adContact" size="30"></td>
+        </tr>
+
+        <tr>
+            <td width="104">Email</td>
+            <td width="305"><input type="text" name="adEmail" size="30"></td>
+        </tr>
+
+        <tr>
+            <td width="104">IC</td>
+            <td width="305"><input type="text" name="adIc" size="30"></td>
+        </tr>
+
+        <tr>
+            <td width="104">Address</td>
+            <td width="305"><input type="text" name="adAddress" size="30"></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp&nbsp</td>
+            <td>&nbsp&nbsp</td>
+        </tr>
+
+        <tr>
+            <td width="104"><input type="submit" name="submitBtn" value="Submit"></td>
+            <td width="350"><input type="reset" name="resetBtn" value="clear"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

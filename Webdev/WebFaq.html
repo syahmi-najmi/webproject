@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+<style>
+  body {font-family: "Times New Roman", Georgia, Serif;}
+        h1, h2, h3, h4, h5, h6 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="WebHomepage.html" class="w3-bar-item w3-button"><b>S</b> DENTAL </a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="WebHomepage.html" class="w3-bar-item w3-button">Home</a>
+        <a href="WebHomepage.html#about" class="w3-bar-item w3-button">About</a>
+        <a href="WebHomepage.html#service" class="w3-bar-item w3-button">Service</a>
+        <a href="WebHomepage.html#contact" class="w3-bar-item w3-button">Contact</a>
+        <a href="Webregister.html" class="w3-bar-item w3-button">Register</a>
+        <a href="WebFaq.html" class="w3-bar-item w3-button">FAQ</a>
+        <a href="WebLogin.html" class="w3-bar-item w3-button">Log In</a>
+        <a href="appoinmentForm.html" class="w3-bar-item w3-button">Set Appointment</a>
+      </div>
+    </div>
+</div>
+
+<div class="w3-content">
+  <div class="w3-row w3-padding-64">
+    <h2>FAQ</h2>
+    <p>First Appointment FAQs</p>
+      <button class="accordion"> Do I need to arrive early for my first appointment?</button>
+        <div class="panel">
+          <p>Yes. Please arrive 10-15 minutes early to fill out any remaining patient forms.</p>
+        </div>
+
+      <button class="accordion">What do I need to bring to my first appointment?</button>
+        <div class="panel">
+          <p>Please bring the following items with you to your appointment:</p>
+          <ul>
+            <li>Patient Information Form</li>
+            <li>Identification such as Driver's License, Military ID or State ID</li>
+          </ul>
+        </div>
+
+      <button class="accordion">How long will my first appointment last?</button>
+        <div class="panel">
+          <p>It varies, but please plan on 1 to 1.5 hours for the first visit.</p>
+        </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="w3-content">
+  <div class="w3-row w3-padding-64">
+    <p>General Dentistry FAQs</p>
+    <button class="accordion"> Why should I go to the dentist regularly?</button>
+    <div class="panel">
+      <p>Many people do not see a dentist on a regular basis. They only go when they have a problem. This is known as "crisis treatment" 
+        versus "preventive treatment." While these patients may feel they are saving money, it often ends up costing much more in 
+        dollars and time. This is because many dental problems do not have symptoms until they reach the advanced stages of the disease 
+        process. An example is tooth decay. It is typical to hear, "Nothing hurts... I don't have any problems."<br><br>   
+        Tooth decay often does not hurt until it gets close to the nerve of the tooth. It is not uncommon to see a patient with a huge cavity who has never felt a thing. The dentist can usually detect a cavity 3-4 years before it develops any symptoms. This early detection can help you prevent root canal treatment.</p>
+    </div>
+
+    <button class="accordion"> Why should I floss, isn't brushing enough?</button>
+        <div class="panel">
+          <p>Flossing reduces the number of bacteria in your mouth. There are millions of these microscopic creatures feeding on food 
+            particles left on your teeth. These bacteria live in plaque which can be removed by flossing. Brushing your teeth gets rid of
+            some of the bacteria in your mouth. Flossing gets rid of the bacteria the toothbrush can't get to. That's the bacteria hiding 
+            in the tiny spaces between your teeth. If you do not floss, you allow plaque to remain between your teeth. Eventually it hardens 
+            into tartar. Plaque can be removed by brushing. Only the dentist can remove tartar.<br><Br>
+              Ask your dentist to show you the proper way to floss. You will both notice the difference at the next cleaning appointment.
+            </p>
+        </div>
+
+        <button class="accordion"> How can I get my kids to brush their teeth?</button>
+        <div class="panel">
+          <p>Make it fun! If you are enthusiastic about brushing your teeth, your children will also be enthusiastic. Children want to do the things 
+            their parents do. If your children see you brushing your teeth and displaying good dental habits, they will follow. Ask the dentist for 
+            other creative ways to get children to brush their teeth.<br><br>
+            Getting your children to brush starts with taking them to the dentist at an early age. All children should be seen by their first birthday 
+            or 6 months after the eruption of the first tooth.
+          </p>
+        </div>
+
+        <button class="accordion">How can I prevent cavities? </button>
+        <div class="panel">
+          <p>Always spend two to three minutes brushing your teeth. It takes that long to get rid of the bacteria that destroy tooth enamel. 
+            Do not brush too hard. It takes very little pressure to remove bacteria and plaque. Floss at least once a day. Flossing is the only way to get 
+            bacteria from between your teeth.<br><br>
+            Watch the sugar you eat. There is sugar in candy, fruits, crackers and chips. These are the foods that the bacteria in your mouth like best. 
+            Be mindful of foods like raisins and peanut butter that stick to your teeth. They can provide a constant supply for the bacteria eating into your teeth. 
+            Try to minimize the times during the day when sweet items are eaten and brush your teeth afterwards.<br><br>
+            If you cannot brush after a meal, rinse your mouth with water - which can help to remove food from your teeth. Chewing sugarless gum after a meal can also help. 
+            Chewing deskulates the flow of your saliva which acts as a natural plaque-fighting substance. And do not forget your regular dental visits. Good dental habits will 
+            go a long way toward a no-cavity visit.
+          </p>
+        </div>
+
+        <button class="accordion"> Why does the dentist take X-rays?</button>
+          <div class="panel">
+            <p>Many diseases of the teeth and surrounding tissues cannot be seen when the dentist examines the mouth. An X-ray examination may reveal:
+              <ul>
+                <li>small areas of decay between the teeth or below existing restorations (fillings)</li>
+                <li>infections in the bone</li>
+                <li>periodontal (gum) disease</li>
+                <li>abscesses or cysts</li>
+                <li>developmental abnormalities</li>
+                <li>some types of tumors</li>
+              </ul><br><br>
+              Finding and treating dental problems at an early stage can save time, money and often unnecessary discomfort. X-rays can detect damage to oral structures not visible 
+              during a regular exam. If you have a hidden tumor, X-rays may even help save your life. Dentist will evaluate your need for X-rays based on the conditions present in 
+              development. There are many benefits to having X-rays taken. Any additional questions or concerns should be discussed with your dentist.
+            </p>
+          </div>
+  </div>
+
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>

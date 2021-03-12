@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+    <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+        h1, h2, h3, h4, h5, h6 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+
+        id{ border: 2px; border-radius: 8px;
+
+
+        }
+        </style>
+    <title>Home Page</title>
+</head>
+<body>
+<div>
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="WebHomepage.html" class="w3-bar-item w3-button"><b>S</b> DENTAL </a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="WebHomepage.html" class="w3-bar-item w3-button">Home</a>
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+            <a href="#service" class="w3-bar-item w3-button">Service</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            <a href="Webregister.html" class="w3-bar-item w3-button">Register</a>
+            <a href="WebFaq.html" class="w3-bar-item w3-button">FAQ</a>
+            <a href="WebLogin.html" class="w3-bar-item w3-button">Log In</a>
+            <a href="appoinmentForm.html" class="w3-bar-item w3-button">Set Appointment</a>
+      </div>
+    </div>
+</div>
+
+<br><br>
+
+<form action="save.php" method="POST" name="appointForm">
+    <div class="w3-content w3-middle" id="div">
+        <fieldset>
+            <legend>Fill in the Blank</legend>
+        <label for="fname">Full Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="contact">Contact Number:</label><br>
+        <input type="text" id="contact" name="contact"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="List">List of Service:</label><br>
+        <select id="List" name="List">
+            <option value="">---</option>
+            <option value="check up">Check up</option>
+            <option value="denture">Denture</option>
+            <option value="whitening">Whitening</option>
+            <option value="scaling">Scaling</option>
+            <option value="Braces">Braces</option>
+            <option value="Root Canal Treatment">Root Canal Treatment</option>
+            <option value="Veneer">Veneer</option>
+            <option value="Fillings">Fillings</option>
+        </select><br><br>
+
+        <label for="booking">Booking:</label><br>
+        <input type="date" id="booking" name="booking"><br><br>
+
+        <label for="message">Leave a message:</label><br>
+        <textarea name="message" rows="10" cols="60">
+
+        </textarea><br><br>
+
+        
+
+
+
+
+
+        <input type="submit" value="Submit">
+        </fieldset>
+    </div>    
+</form>
+</body>
+</html>
